@@ -8,19 +8,19 @@ You'll need to install the adapter as a NuGet package for each of your test proj
 
 ## Installing the NuGet Package
 
-You will most likely want to add a new NUnit Test Project to your solution.  The easiest way is to use the ```dotnet``` command on the command line.
+You will most likely want to add a new NUnit Test Project to your solution.  The easiest way is to use the `dotnet` command on the command line.
 
 Go to your project root and where you want to add your project.
 
 Create a folder for the project with a name matching what your new test project should be named.
 
-Then run the command ````dotnet new nunit```
+Then run the command `dotnet new nunit`
 
 You will now get a complete nunit test project with the same name as the folder.  You will also have a template unit test class there as a starter.
 
 If you have a Visual Studio solution file in the root folder, you can go there and add the new nunit csproj easily:
 
-Assume you are at a solution root, and you either have a solution file, or have just been adding it with ```dotnet new sln```
+Assume you are at a solution root, and you either have a solution file, or have just been adding it with `dotnet new sln`
 
 ```cmd
 md Whatever.Test
